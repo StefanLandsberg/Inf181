@@ -1,0 +1,100 @@
+
+body{
+    background-image: url(../images/desola-lanre-ologun-zYgV-NGZtlA-unsplash.jpg);
+}
+#login-form {
+    max-width: 30%;
+    min-height: 50em;
+    background: linear-gradient(2100deg, #5b53d4, #4c00ff4f);
+    margin: 0 auto;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 2px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.801);
+}
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 300%;
+    text-align: center;
+    color: black;
+}
+
+label {
+    display: block;
+    font-size: 110%;
+    margin-bottom: 10px;
+    color: rgb(0, 0, 0);
+}
+
+#login select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #333;
+}
+#f1{
+    text-align: center;
+}
+#gradient-button, #gradient-button-transition, #complex-gradient-transition {
+    background: linear-gradient(180deg, #584cfd, #4109c4);
+    text-align: center;
+    padding: 0.5rem 1.5rem;
+    transition: all 0.005s ease-out;
+    font-variation-settings: 'wght' 500;
+    height: auto;
+    width: 400px;
+    border-radius: 100px;
+    border: none;
+    color: white;
+    font-size: 1.25rem;
+    box-shadow: none;
+    transform: scale(1);
+    margin-bottom:50%;
+    margin-top: 40px;
+    margin-left: 14%;
+}
+
+#gradient-button:hover {
+    background: linear-gradient(45deg, #0037ff, #00adff);
+    transform: scale(1.1);
+}
+#gradient-button-transition:hover {
+    transform: scale(1.1);
+}
+#guest-signin {
+    text-align: center;
+    color: #333;
+    margin-top: 20px;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f5f5f5; 
+    font-size: 16px;
+}
+
+
+select option {
+    font-size: 16px;
+    background-color: #ffffff; 
+    color: #333;
+    padding: 10px;
+}
+
+
+select option:checked {
+    background-color: #333;
+    color: #ffffff;
+}
+#index-logo{
+    margin-left: 22%;
+    margin-top: 0%;
+    height: 200px;
+    width: 300px;
+}

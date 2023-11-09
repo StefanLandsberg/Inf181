@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Information Systems Toolkit</title>
+    <link rel="stylesheet" href="css/stylesheet.css">
+</head>
+<body>
+    <header>
+        
+    </header>
+
+    <main>
+        <div id="login-form">
+            <h2>Login</h2>
+            <form id="login" onsubmit="return handleLogin();">
+                <label for="reason">Why are you visiting?</label>
+                <select id="reason" name="reason">
+                    <option value="everything.html">See everything</option>
+                    <option value="data-visualization.html">Data Visualization</option>
+                    <option value="information-quality.html">Information Quality</option>
+                    <option value="data-ethics.html">Data ethics</option>
+                    <option value="ai.html">AI and information systems in business</option>
+                    <option value="information-system.html">Information system integration in a business</option>
+                    <option value="customising.html">Customising information systems</option>
+                </select>
+                <div class="fl">
+                    <button id="gradient-button-transition">Login</button>
+                </div>
+                <img src="images/output-onlinepngtools.png" alt="" id="index-logo">
+            </form>
+            <div id="guest-signin">
+                <p>Or</br><a href="everything.html">Sign in as a Guest</a></p>
+            </div>
+        </div>
+        
+    </main>
+    <script src="js/script.js"></script>
+</body>
+</html>

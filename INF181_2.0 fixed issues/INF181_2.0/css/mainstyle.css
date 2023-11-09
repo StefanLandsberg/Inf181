@@ -1,0 +1,129 @@
+
+body {
+    background-image: url(../images/desola-lanre-ologun-zYgV-NGZtlA-unsplash.jpg);
+    font-family: Arial, sans-serif; 
+    color: #333; 
+}
+
+#main {
+    grid-gap: 20px; 
+    align-items: start; 
+    background-color: white;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background: linear-gradient(0deg, #584cfd, #4109c4d3);
+}
+.li{
+    color: white;
+}
+#bodymain{
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: white;
+    margin-top: 0px;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 15px;
+    background: linear-gradient(180deg, #584cfd, #4109c4cc);
+}
+
+.dropdown {
+    position: relative;
+}
+
+
+span {
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 3px;
+    color: white;
+}
+
+
+.dropdown-list {
+    display: none;
+    position: absolute;
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    column-gap: 60px; 
+    column-fill: balance;
+}
+
+
+.dropdown-list li {
+    font-size: 90%;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: black;
+    font-weight: 500;
+   
+}
+
+.dropdown-list li:hover {
+    background: linear-gradient(2100deg,#ffbb30, #eeeeee);
+    color: black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 3px;
+}
+
+
+.dropdown-list a {
+    text-decoration: none;
+    color: #333; 
+}
+
+
+.dropdown:hover .dropdown-list {
+    display: block;
+}
+
+span:hover {
+    background: linear-gradient(2100deg,#ffbb30, #eeeeee);
+    color: black;
+}
+.header{
+    display: grid;
+    grid-template: repeat(11, 1fr); 
+    list-style: none;
+}
+
+#first{
+    grid-column: 6 / span 1;
+    margin-top: 20px;
+}
+#first1{
+    grid-column: 3 / span 1;
+    font-size: 130%;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 0;
+    margin: 0;
+}
+#first2{
+    grid-column: 7 / span 1;
+    margin-top: 20px;
+}
+#second{
+    grid-column: 8 / span 1;
+    margin-top: 20px;
+}
+#third{
+    grid-column: 9 / span 1;
+    margin-top: 20px;
+}
+.li a{
+    text-decoration: none;
+    color: black;
+}
+#logo{
+    height: 80px;
+    grid-column: 1 / span 2;
+}
+
